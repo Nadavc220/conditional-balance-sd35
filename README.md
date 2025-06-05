@@ -35,6 +35,9 @@ pip install opencv-python                  # version=4.11.0
 
 ### Text Conditioned
 Currently we only support text + style balance conditioning. We recommend using a GPU with a memory of at least 32 GB.
+
+![example](assets/example_sd35.png)
+
 The following call can be used to generate text-conditioned images:
 ```
 python style_gen_img.py --seed 102 \
@@ -53,8 +56,6 @@ python style_gen_img.py --seed 102 \
 
 --style_prompt Xu Beihong \
 --reference_prompt An ink drawing \
-
-
 ```
 
 
