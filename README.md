@@ -51,6 +51,9 @@ python style_gen_img.py --seed 102 \
 --style_prompt Henri Matisse \
 --reference_prompt A painting \
 
+--style_prompt Xu Beihong \
+--reference_prompt An ink drawing \
+
 
 ```
 
